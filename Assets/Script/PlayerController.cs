@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     // frameごとの状態更新。ただし、物理演算の直前に呼ばれるので動きの制御に使うこと。
-    // ロジック的な舞frame処理はUpdate()で
+    // ロジック的な毎frame処理はUpdate()で
     void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
