@@ -22,4 +22,14 @@ public class PlayerController : MonoBehaviour {
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         rb2d.AddForce(movement * speed);
     }
+
+    // 衝突処理に入った時の処理。実際の衝突の前に実行される
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PickUp"))
+        {
+            other.gameObject.SetActive(false);
+        }
+
+    }
 }
