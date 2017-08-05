@@ -1,4 +1,4 @@
 # Unityチュートリアル
 
-https://github.com/unity3d-jp-tutorials/2d-shooting-game/wiki
+https://unity3d.com/jp/learn/tutorials/projects/2d-ufo-tutorial
 
